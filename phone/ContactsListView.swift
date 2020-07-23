@@ -95,9 +95,7 @@ struct ContactsListView: View {
           }
           .onChange(of: selectedIndex) { index in
             guard let index = index else { return }
-            withAnimation(Animation.easeInOut) {
-              scrollViewProxy.scrollTo(index, anchor: .top)
-            }
+            scrollViewProxy.scrollTo(index, anchor: .top)
           }
         }
       }
