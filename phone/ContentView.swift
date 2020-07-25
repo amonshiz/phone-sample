@@ -14,7 +14,7 @@ struct ContentView: View {
     TabView(
       selection: $selection,
       content:  {
-        Text("Tab Content 1")
+        FavoritesView()
           .tabItem {
             Label {
               Text("Favorites")

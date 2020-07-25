@@ -17,6 +17,9 @@
 		1BCA3B3D24C4EA470076EBF3 /* VoicemailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA3B3C24C4EA470076EBF3 /* VoicemailView.swift */; };
 		1BD89A7924C0FCF2005DABF8 /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89A7824C0FCF2005DABF8 /* KeypadView.swift */; };
 		1BD89A7B24C0FDBA005DABF8 /* RecentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD89A7A24C0FDBA005DABF8 /* RecentsView.swift */; };
+		DAD0621124CBC5340067C21C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD0621024CBC5340067C21C /* FavoritesView.swift */; };
+		DAD0621324CBCFA70067C21C /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = DAD0621224CBCFA70067C21C /* contacts.json */; };
+		DAD0621524CBCFC30067C21C /* FavoritesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD0621424CBCFC30067C21C /* FavoritesModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		1BD89A7824C0FCF2005DABF8 /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
 		1BD89A7A24C0FDBA005DABF8 /* RecentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsView.swift; sourceTree = "<group>"; };
 		DAAD9DBF24CA2363009DB285 /* phone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = phone.entitlements; sourceTree = "<group>"; };
+		DAD0621024CBC5340067C21C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		DAD0621224CBCFA70067C21C /* contacts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		DAD0621424CBCFC30067C21C /* FavoritesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 				1BCA3B3C24C4EA470076EBF3 /* VoicemailView.swift */,
 				1B3AFE0824C6532000D0F153 /* ContactsListView.swift */,
 				1B3AFE0C24C741DC00D0F153 /* ListSectionIndex.swift */,
+				DAD0621024CBC5340067C21C /* FavoritesView.swift */,
+				DAD0621224CBCFA70067C21C /* contacts.json */,
+				DAD0621424CBCFC30067C21C /* FavoritesModels.swift */,
 			);
 			path = phone;
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD0621324CBCFA70067C21C /* contacts.json in Resources */,
 				1B963CB124C0B44000AC29F7 /* Preview Assets.xcassets in Resources */,
 				1B3AFE0B24C657B700D0F153 /* 3C8B4DBE-9390-4685-B3D1-1D818F749C16_1_105_c.jpeg in Resources */,
 				1B963CAE24C0B44000AC29F7 /* Assets.xcassets in Resources */,
@@ -159,10 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD0621524CBCFC30067C21C /* FavoritesModels.swift in Sources */,
 				1B963CAC24C0B44000AC29F7 /* ContentView.swift in Sources */,
 				1B3AFE0D24C741DC00D0F153 /* ListSectionIndex.swift in Sources */,
 				1B3AFE0924C6532000D0F153 /* ContactsListView.swift in Sources */,
 				1B963CAA24C0B44000AC29F7 /* phoneApp.swift in Sources */,
+				DAD0621124CBC5340067C21C /* FavoritesView.swift in Sources */,
 				1BD89A7924C0FCF2005DABF8 /* KeypadView.swift in Sources */,
 				1BD89A7B24C0FDBA005DABF8 /* RecentsView.swift in Sources */,
 				1BCA3B3D24C4EA470076EBF3 /* VoicemailView.swift in Sources */,
